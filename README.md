@@ -3,7 +3,7 @@
 This project explores the application of deep learning techniques for classifying chest X-rays into three categories: **Normal**, **COVID-19**, and **Viral Pneumonia**. The work compares the performance of a baseline Random Forest model with a deep learning model, providing insights into accuracy, recall, and real-world applicability in the healthcare domain.
 
 ## Key Features
-
+- **Dataset:** https://www.kaggle.com/datasets/tawsifurrahman/covid19-radiography-database/versions/4 
 - **Baseline Model:** Implemented a Random Forest classifier as a benchmark, achieving a test accuracy of 87.5% after grid search optimization.
 - **Deep Learning Model:** Developed and optimized a ResNet-50 deep learning model, achieving a test accuracy of 97.1% with superior recall across all classes.
 - **Data Preprocessing:** Employed Contrast Limited Adaptive Histogram Equalization (CLAHE) to enhance features in chest X-rays.
@@ -11,7 +11,6 @@ This project explores the application of deep learning techniques for classifyin
 
 ## Repository Structure
 
-- **`data/`**: Contains the chest X-ray images used for training, validation, and testing.
 - **`code/`**: Includes Jupyter notebooks for the implementation of the models, data preprocessing, and analysis.
 - **`report/`**: Contains the comprehensive project report detailing methodology, results, and insights.
 
